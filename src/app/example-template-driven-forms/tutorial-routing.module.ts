@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ExampleTemplateDrivenFormsComponent } from './example-template-driven-forms.component';
+import { TutorialComponent } from './tutorial.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: ExampleTemplateDrivenFormsComponent,
+    component: TutorialComponent,
   },
 ];
 
@@ -14,4 +14,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ExampleTemplateDrivenFormsRoutingModule { }
+export class TutorialRoutingModule { }

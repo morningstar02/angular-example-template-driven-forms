@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ExampleTemplateDrivenFormsModule } from './example-template-driven-forms/example-template-driven-forms.module';
+import { TutorialModule } from './example-template-driven-forms/tutorial.module';
 
 @NgModule({
   declarations: [
@@ -10,7 +10,7 @@ import { ExampleTemplateDrivenFormsModule } from './example-template-driven-form
   ],
   imports: [
     BrowserModule,
-    ExampleTemplateDrivenFormsModule
+    TutorialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
